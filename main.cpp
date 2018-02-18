@@ -1,3 +1,5 @@
+//By MrZ
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -10,7 +12,7 @@ void punto_5();
 void punto_6();
 
 //1. Ciclo While
-//a) Sumar los números del 1 al 100
+//a) Sumar los nÃºmeros del 1 al 100
 
 int main(){
     int opcionMenu = 0;
@@ -65,11 +67,11 @@ void punto_1(){
         p = a + p;
         a = a + 1;
     }
-    printf("La suma de los 100 primeros números es %d",p);
+    printf("La suma de los 100 primeros nÃºmeros es %d",p);
 }
 
 //2. Ciclo For
-//a) Imprimir las tablas de multiplicar de un número del 1 al 20
+//a) Imprimir las tablas de multiplicar de un nÃºmero del 1 al 20
 
 void punto_2() {
     int a, p = 0, n;
